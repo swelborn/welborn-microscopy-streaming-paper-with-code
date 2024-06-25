@@ -1,0 +1,7 @@
+pip
+pydantic
+numpy
+scipy
+ncempy
+py4dstem==0.14.3
+seaborn

@@ -1,0 +1,17 @@
+name: base
+channels:
+  - conda-forge
+dependencies:
+  - cupy
+  - cudatoolkit=11.7
+  - pip
+  - pydantic
+  - numpy
+  - scipy
+  - scikit-learn
+  - pip:
+    - stempy==3.3.8
+    - ncempy
+    - mpi4py
+    - h5py==3.10.0
+    - py4dstem[cuda]==0.14.3

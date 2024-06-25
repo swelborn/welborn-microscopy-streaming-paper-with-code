@@ -1,0 +1,49 @@
+{
+    "microscope": {
+        "r_pixel_size": 0.03615877032279968,
+        "r_pixel_units": "nm",
+        "convergence_semiangle": 17.1,
+        "q_pixel_units": "mrad",
+        "probe_current": 70,
+        "probe_current_units": "pA",
+        "beam_energy": 300e3,
+        "beam_energy_units": "keV"
+    },
+    "crop_full_data": {
+        "x_min": 50,
+        "x_max": 450,
+        "y_min": 80,
+        "y_max": 480
+    },
+    "crop_vacuum_probe": {
+        "x_min": 100,
+        "x_max": 160,
+        "y_min": 240,
+        "y_max": 310
+    },
+    "experiment": {
+        "num_scans": 60,
+        "seconds_between_scans": 55,
+        "min_scan_num": 516,
+        "max_scan_num": 575,
+        "data_base_path": "/mnt/counted_data/"
+    },
+    "binning": {
+        "bin_diffraction_factor": 16
+    },
+    "calibration": {
+        "vacuum_probe_raw_path": "/mnt/counted_data/FOURD_230815_0547_01432_00516.h5",
+        "vacuum_probe_emd_path": "/mnt/counted_data/FOURD_230815_0547_01432_00516_vacuum_probe.h5"
+    },
+    "plot": {
+        "blue_color": "#0762CF",
+        "red_color": "#BB0700",
+        "green_color": "#6DA04B",
+        "label_font_size": 8,
+        "tick_font_size": 6
+    },
+    "outputs": {
+        "plots_dir": "/analysis/outputs/plots",
+        "ptycho_npy_dir": "/analysis/outputs/ptycho_npy"
+    }
+}

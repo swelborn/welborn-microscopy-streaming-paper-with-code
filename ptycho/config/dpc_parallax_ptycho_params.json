@@ -1,0 +1,59 @@
+{
+    "bf_df": {
+        "expand_BF": 2.0,
+        "extra_radius": 1e3
+    },
+    "dpc": {
+        "preprocess": {
+            "force_com_rotation": 256
+        },
+        "reconstruct": {
+            "store_iterations": true,
+            "reset": true,
+            "q_highpass": 0.03
+        }
+    },
+    "parallax": {
+        "instantiation": {
+            "object_padding_px": [
+                16,
+                16
+            ]
+        },
+        "preprocess": {
+            "edge_blend": 8,
+            "threshold_intensity": 0.8,
+            "defocus_guess": 50,
+            "rotation_guess": 256
+        },
+        "reconstruct": {
+            "min_alignment_bin": 4,
+            "max_iter_at_min_bin": 12,
+            "running_average": false,
+            "reset": true
+        },
+        "crop_R": {
+            "x_min": 0,
+            "x_max": 400,
+            "y_min": 0,
+            "y_max": 300
+        }
+    },
+    "ptycho": {
+        "preprocess": {
+            "force_com_transpose": false,
+            "force_com_rotation": 256,
+            "fit_function": "constant"
+        },
+        "reconstruct": {
+            "reset": true,
+            "store_iterations": false,
+            "max_iter": 30,
+            "step_size": 0.1,
+            "q_lowpass": 1.75
+        }
+    },
+    "compute": {
+        "device": "gpu"
+    }
+}

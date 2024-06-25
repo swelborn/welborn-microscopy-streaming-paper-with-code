@@ -1,0 +1,63 @@
+[
+    {
+        "description": "Aviram Streaming 1",
+        "streaming": false,
+        "date": "2023.10.11",
+        "data_dir": "/global/cfs/cdirs/ncemhub/still/counted/2023.11.02",
+        "dm4_dir": "/global/cfs/cdirs/ncemhub/still/dm4/2023.11.02",
+        "scan_range": [
+            5257,
+            5300
+        ],
+        "plot_range": [
+            5273,
+            5289
+        ]
+    },
+    {
+        "description": "Ambarneil Streaming 1",
+        "streaming": true,
+        "date": "2024.02.16",
+        "data_dir": "/global/cfs/projectdirs/ncemhub/distiller/counted/2024.02.16",
+        "dm4_dir": "/global/cfs/cdirs/ncemhub/distiller/dm4/2024.02.16",
+        "scan_range": [
+            98,
+            226
+        ],
+        "plot_range": [
+            176,
+            199
+        ]
+    },
+    {
+        "description": "Aviram FT 4",
+        "streaming": false,
+        "date": "2023.09.14",
+        "data_dir": "/global/cfs/cdirs/ncemhub/distiller/counted/2023.09.14",
+        "dm4_dir": "/global/cfs/cdirs/ncemhub/distiller/dm4/2023.09.14",
+        "scan_range": [
+            1471,
+            1526
+        ],
+        "plot_range": [
+            1480,
+            1494
+        ]
+    },
+    {
+        "description": "Ambarneil FT 3",
+        "streaming": false,
+        "date": "2023.02.24",
+        "data_extension": "electrons.h5",
+        "data_dir": "/global/cfs/cdirs/ncemhub/distiller/counted/2023.02.24",
+        "dm4_dir": "/global/cfs/cdirs/ncemhub/distiller/dm4/2023.02.24",
+        "scan_range": [
+            417,
+            655
+        ],
+        "plot_range": [
+            616,
+            639
+        ]
+    }
+]

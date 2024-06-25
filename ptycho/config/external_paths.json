@@ -1,0 +1,8 @@
+{
+    "counted_data_dir": "/pscratch/sd/s/swelborn/streaming-paper/counted_data/untarred",
+    "outputs_dir": "/global/homes/s/swelborn/gits/MandM_Paper/code/ptycho/outputs",
+    "scripts_dir": "/global/homes/s/swelborn/gits/MandM_Paper/code/ptycho/scripts",
+    "batch_scripts_dir": "/global/homes/s/swelborn/gits/MandM_Paper/code/ptycho/batch",
+    "config_dir": "/global/homes/s/swelborn/gits/MandM_Paper/code/ptycho/config",
+    "ptycho_npy_dir": "/global/homes/s/swelborn/gits/MandM_Paper/code/ptycho/outputs/ptycho_npy"
+}

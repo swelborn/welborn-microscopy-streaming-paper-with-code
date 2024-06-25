@@ -1,0 +1,8 @@
+pydantic
+numpy
+pandas
+stempy
+ipykernel
+matplotlib
+ipympl
+seaborn
