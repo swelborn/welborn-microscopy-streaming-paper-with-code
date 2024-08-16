@@ -12,7 +12,7 @@ dependencies:
   - pip:
     - stempy==3.3.8
     - ncempy
-    - mpi4py
+    - mpi4py<4
     - h5py==3.10.0
     - py4dstem==0.14.3
     - numpy<2
